@@ -3,6 +3,11 @@
 
   this is a news web applicatiion that allows you to get the latest new around the word 
 
+## Tech Stack
+
+- React
+
+  
 ## Features
 
 - asearchbar to allow user to search any topic
@@ -35,11 +40,17 @@ Start the server
 ```
 
   
-## Tech Stack
+## Installation
 
-- React
+Install my-project with npm
 
-  ## Feedback
+```bash
+  npm install my-project
+  cd my-project
+```
+    
+## Feedback
 
 If you have any feedback, please reach out to us at fake@fake.com
 
+  
