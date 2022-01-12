@@ -1,7 +1,7 @@
 
 # what is this site
 
-  this is a news web applicatiion that allows you to get the latest new around the word 
+  this is a news web applicatiion that allows you to get the latest news around the word 
 
 ## Tech Stack
 
