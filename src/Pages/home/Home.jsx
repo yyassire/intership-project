@@ -8,7 +8,6 @@ import NewsList from "../../Components/newsList/NewsList";
 function Home() {
   const [topNews, setTopNews] = useState([]);
   const API_KEY = process.env.REACT_APP_API_KEY;
-  console.log(API_KEY);
   useEffect(() => {
     const getTopNews = async () => {
       try {
