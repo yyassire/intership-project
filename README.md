@@ -41,6 +41,10 @@ Start the server
 Get an API key
 
 ```bash
+  Create a .env environment with an API key
+```
+
+```bash
   link: https://newsapi.org/
 ```
 
