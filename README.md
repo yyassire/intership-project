@@ -38,19 +38,15 @@ Start the server
 ```bash
   npm run start
 ```
-
-  
-## Installation
-
-Install my-project with npm
+Get an API key
 
 ```bash
-  npm install my-project
-  cd my-project
+  link: https://newsapi.org/
 ```
+
     
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to me at yyassire01@gmail.com
 
   
