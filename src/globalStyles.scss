@@ -1,0 +1,34 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(229, 231, 238);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: blue;
+  }
+}
+@mixin responsive($breakpoint) {
+  @if $breakpoint == phone {
+    @media screen and (max-width: 640px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @if $breakpoint == big {
+    @media screen and (max-width: 950px) {
+      @content;
+    }
+  }
+}

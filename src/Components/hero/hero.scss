@@ -1,0 +1,32 @@
+@import "../../globalStyles.scss";
+
+.Hero {
+  height: calc(100vh - 50px);
+  @include responsive("tablet") {
+    height: auto;
+  }
+  .hero-wrapper {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hero-text {
+      flex: 1;
+      font-size: 7rem;
+      @include responsive("tablet") {
+        font-size: 2rem;
+        // text-align: center;
+        margin: 20px 0;
+      }
+    }
+    .hero-img {
+      flex: 1;
+      @include responsive("tablet") {
+        display: none;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

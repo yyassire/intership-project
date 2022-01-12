@@ -1,0 +1,43 @@
+@import "../../globalStyles.scss";
+
+.CustomSearch {
+  margin-top: 20px;
+  .custom-search-wrapper {
+    padding: 0 30px;
+    .header {
+      text-align: center;
+      color: gray;
+      font-size: 1.5rem;
+    }
+    .searchBtn {
+      button {
+        background-color: rgb(48, 103, 206);
+        padding: 7px 20px;
+        color: rgb(229, 231, 238);
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          background-color: blue;
+        }
+      }
+    }
+    .filter-container {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-size: 2rem;
+        @include responsive("phone") {
+          font-size: 1.3rem;
+        }
+      }
+      select {
+        margin: 7px 0 40px 0;
+        border: none;
+        border-bottom: 1px solid gray;
+        outline: none;
+        background-color: inherit;
+        max-width: 200px;
+      }
+    }
+  }
+}

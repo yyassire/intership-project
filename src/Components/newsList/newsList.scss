@@ -1,0 +1,44 @@
+@import "../../globalStyles.scss";
+.NewsList {
+  margin-top: 60px;
+  .news-list-wrapper {
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @include responsive("tablet") {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include responsive("phone") {
+      grid-template-columns: 1fr;
+    }
+
+    gap: 30px 20px;
+    .single-news {
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+      .single-news-wrapper {
+        padding: 10px;
+        .img {
+          width: 100%;
+          height: 200px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+          }
+        }
+        .news-title {
+          font-size: 1.5rem;
+          margin: 3px 0;
+        }
+        .source {
+          margin: 10px 0;
+        }
+        .news-desc {
+          line-height: 1.5rem;
+          color: gray;
+        }
+      }
+    }
+  }
+}
